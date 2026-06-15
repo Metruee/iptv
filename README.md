@@ -1,11 +1,12 @@
 ---
 layout: default
 title: 最新IPTV直播源|每日更新直播源|免费电视直播源|Github开源项目
-description: 本项目免费提供最新开源的IPTV直播源,每6小时自动更新。收录国内外数千个高清直播频道源,包括央视、卫视等频道。完全免费无广告,提供M3U/TXT格式,支持IPv4/IPv6双栈访问,支持EPG节目单及台标,可用于所有苹果、安卓4.0+系统的电视盒子、手机、和任何电脑等设备。
+description: 这是fork vbskycn/iptv 项目
 keywords: IPTV,直播源,IPTV直播源,直播电视,电视直播,CCTV,全套卫视,全套央视,iptv,iptv直播源,ipv4直播源,IPv6直播源,免费直播源,m3u8直播源,国内,直播电视app
 permalink: /
 ---
 
+<h2 align="center">✯ 以下是来自原项目的推荐，如有疑问可直接联系原想项目作者＜（＾－＾）＞ ✯</h2>
 
 <h2 align="center">✯ 这是一个国内可直连的iptv直播源分享项目 ✯</h2>
 
@@ -13,16 +14,6 @@ permalink: /
 
 <span style="color: #e03e2d;"><strong>请注意：</strong></span>本仓库直播源全部来源：由github仓库工作流自动收集于网络公开资源。本项目不存储任何直播源媒体的内容，所有直播源均由第三方提供，本项目不对其内容负责，不保证直播源的可用性、稳定性和合法性。
 
-<div class="badges-container">
-    <img src="https://img.shields.io/github/stars/vbskycn/iptv?style=flat-square" alt="GitHub stars" />
-    <img src="https://img.shields.io/github/forks/vbskycn/iptv?style=flat-square" alt="GitHub forks" />
-    <img src="https://img.shields.io/github/issues/vbskycn/iptv?style=flat-square" alt="GitHub issues" />
-    <img src="https://img.shields.io/github/watchers/vbskycn/iptv?style=flat-square" alt="GitHub watchers" />
-    <img src="https://img.shields.io/github/contributors/vbskycn/iptv?style=flat-square" alt="GitHub contributors" />
-    <img src="https://img.shields.io/github/license/vbskycn/iptv?style=flat-square" alt="GitHub license" />
-    <img src="https://views.whatilearened.today/views/github/vbskycn/iptv.svg" alt="访问统计" />
-</div>
-------
 
 如不愿折腾开源项目，推荐直接下载第三方开发的软件 **直播电视** APP 使用，手机电视盒子都兼容，免费无广告。
 
@@ -134,47 +125,6 @@ https://gh-proxy.com/raw.githubusercontent.com/vbskycn/iptv/refs/heads/master/tv
 ### 直播源开源站点地址
 
 - [https://live.zbds.top/](https://live.zbds.top/)
-
-
-
-### 🔄 Fork 仓库自动同步
-
-如果您 Fork 了本项目，可以通过以下方式保持与上游仓库的同步：
-
-#### 开启 GitHub Actions 工作流
-**重要**：Fork 后需要手动开启 Actions 功能才能使用自动同步：
-
-1. 进入您 Fork 的仓库页面
-2. 点击仓库顶部的 **"Actions"** 标签页
-3. 如果看到 "Workflows aren't being run on this forked repository" 的提示，点击 **"I understand my workflows, go ahead and enable them"** 按钮
-4. 在左侧工作流列表中找到 **"Sync with Upstream Repository"** 工作流
-5. 点击该工作流，然后点击 **"Enable workflow"** 按钮
-6. 确认启用工作流
-
-> **说明**：由于 GitHub 安全策略，包含定时任务（schedule）和手动触发（workflow_dispatch）的工作流在 Fork 后默认是关闭的，需要手动启用。
-
-#### 自动同步（推荐）
-开启 Actions 后，本项目已配置 GitHub Actions 工作流，每6小时自动同步上游仓库的更新：
-- ✅ 每6小时自动检测上游仓库更新
-- ✅ 自动合并最新更改，每次同步都会生成详细的执行报告
-- ✅ 自动解决合并冲突（以远程仓库为准）
-- ✅ 保护工作流文件，避免权限问题
-
-
-
-
-
-<h2>📅 更新</h2>
-
-- 2025.9.29 删除一些冗余文件
-- 2025.8.1 更新一些直播源
-- 2025.5.20 不提供epg服务
-- 2025.1.11 优化页面
-- 2024.12.13 跟着节奏继续优化
-- 2024.10.18 优化测试有效源代码
-- 2024.9.9 直播源失效速度太快，新添加deibian服务器，每日三次更新
-- 2024.6.22 新增 IPTV4/IPTV6 自动更新源
-
 
 
 <h2>💬 联系</h2>
